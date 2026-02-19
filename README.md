@@ -4,4 +4,4 @@ This is a simple unit conversion tool that converts between metric and imperial 
 
 [Link to the project](https://atelierjb.github.io/unit-converter/)
 
-![Screenshot](https://atelierjb.github.io/unit-converter/blob/main/screenshot.png)
+![Unit Converter](https://github.com/atelierjb/unit-converter/blob/main/screenshot.png)
