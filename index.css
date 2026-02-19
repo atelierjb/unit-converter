@@ -1,0 +1,120 @@
+:root {
+    --primary-color: #FDA349;
+    --secondary-color: #EDEDED;
+    --white-color: #FFF;
+    --black-color: #4E4E4E;
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #fdfdfd;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--secondary-color);
+    color: var(--black-color);
+}
+
+header h1 {
+    text-align: center;
+    font-size: 40px;
+    line-height: 1;
+    margin: 0;
+}
+
+#input-el {
+    width: 200px;
+    height: 100px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: 2px solid var(--primary-color);
+    background-color: var(--secondary-color);
+    color: var(--black-color);
+    text-align: center;
+    font-size: 65px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    line-height: 1;
+}
+
+#convert-btn {
+    padding: 10px 25px;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+    font-size: 20px;
+    border-radius: 5px;
+    border-style: none;
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    cursor: pointer;
+}
+
+#results {
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 100%;
+    background-color: var(--secondary-color);
+    padding: 25px;
+    text-align: center;
+    max-width: 350px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: left;
+    gap: 20px;
+    aspect-ratio: 5/3;
+}
+
+.card-header {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+h2 {
+    font-size: 40px;
+    color: var(--black-color);
+    margin: 0;
+    text-align: left;
+}
+
+.tagline {
+    font-family: monospace;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    line-height: 1;
+    font-size: 10px;
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    border-radius: 100px;
+    padding: 6px 12px;
+    width: fit-content;
+    margin: 0;
+}
+
+#length-el,
+#volume-el,
+#mass-el {
+    font-family: monospace;
+    font-size: 20px;
+    color: var(--black-color);
+    margin: 0;
+    text-align: left;
+}
